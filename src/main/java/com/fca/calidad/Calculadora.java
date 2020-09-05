@@ -7,6 +7,7 @@ public class Calculadora{
         resultado=(operador1/operador2);
         System.out.println("La division de "+operador1+" / "+operador2+" es "+resultado);
         return resultado;
+        System.out.println("La division de "+operador1+" / "+operador2+" es "+resultado);
     }
     public  float multiplica(int operador1, int operador2) {
         resultado=operador1*operador2;
